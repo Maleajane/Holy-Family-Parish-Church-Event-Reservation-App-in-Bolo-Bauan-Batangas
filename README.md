@@ -8,6 +8,11 @@
 
 # Development Model
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Maleajane/Holy-Family-Parish-Church-Registration-App-in-Bolo-Bauan-Batangas/commit/423e4b8abb54113ffb5b3998c08ecacbd95aca60">
+</p>
+
+
 # System Architecture
 
 # Application Screenshots
