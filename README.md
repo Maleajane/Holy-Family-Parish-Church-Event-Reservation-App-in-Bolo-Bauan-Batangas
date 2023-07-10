@@ -34,6 +34,6 @@
 
 # System Architecture
 
-# Application Screenshots
+# Github Repository
 
 # Team Members
