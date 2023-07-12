@@ -1,5 +1,9 @@
 # Holy Family Parish Church Event Reservation App in Brgy. Bolo, Bauan, Batangas
 
+<p align="center">
+  <img width="460" height="400" src="LOGO.PNG">
+</p>
+
 # Project Description
 
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; Holy Family Parish is a roman catholic church located in balintawak street, brgy. bolo, bauan, batangas which are currently experiencing numerous in-person event reservations such as infant and adult baptism, first holy communion, confirmation, confession, marriage, other milestones like birthday, wedding anniversary and funeral ceremony. With their traditional manual method, the process of reserving a church event is very time-consuming and involves physical contact with others. These significant challenges can easily be solved by utilizing modern technology.  
