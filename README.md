@@ -10,6 +10,8 @@
 
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; Holy Family Parish app is a mobile web application that allows the user to reserve for a specific church event. Also, to organize and manage schedule of events while providing security and accuracy of information for all the user. The ultimate goal is to bridge the gap through a mobile web application by enhancing their current church operations to accommodate the needs of the congregation including numerous event reservations and other services.
 
+**Sustainable Development Goal (SDG) - Goal 17: Partnerships for the Goals**
+
 <p align="center">
   <img width="950" height="300" src="SDG.png">
 </p>
