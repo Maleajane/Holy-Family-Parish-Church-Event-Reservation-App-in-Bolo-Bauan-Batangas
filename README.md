@@ -8,7 +8,7 @@
 
 ## Brief Description of the Project
 
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; Holy Family Parish is a roman catholic church located in balintawak street, brgy. bolo, bauan, batangas which are currently experiencing numerous in-person event reservations such as infant and adult baptism, first holy communion, confirmation, confession, marriage, other milestones like birthday, wedding anniversary and funeral ceremony. With their traditional manual method, the process of reserving a church event is very time-consuming and involves physical contact with others. These significant challenges can easily be solved by utilizing modern technology. </p> 
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; Holy Family Parish is a Roman Catholic Church located in Balintawak Street, Brgy. Bolo, Bauan, Batangas which are currently experiencing numerous in-person event reservations such as infant and adult baptism, first holy communion, confirmation, confession, marriage, other milestones like birthday, wedding anniversary and funeral ceremony. With their traditional manual method, the process of reserving a church event is very time-consuming and involves physical contact with others. These significant challenges can easily be solved by utilizing modern technology. </p> 
 
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; Holy Family Parish app is a mobile web application that allows the user to reserve for a specific church event. Also, to organize and manage schedule of events while providing security and accuracy of information for all the user. The ultimate goal is to bridge the gap through a mobile web application by enhancing their current church operations to accommodate the needs of the congregation including numerous event reservations and other services. </p>
 
