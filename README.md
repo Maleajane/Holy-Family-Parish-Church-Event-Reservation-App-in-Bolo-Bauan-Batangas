@@ -70,19 +70,55 @@
 </p>
 
 <p align="center">
-  <img width="980" height="500" src="User Log in Page.png">
+  <img width="980" height="500" src="User's Infant Baptism Page.png">
 </p>
 
 <p align="center">
-  <img width="980" height="500" src="User Log in Page.png">
+  <img width="980" height="500" src="User's Adult Baptism Page.png">
 </p>
 
 <p align="center">
-  <img width="980" height="500" src="User Log in Page.png">
+  <img width="980" height="500" src="User's Marriage Page.png">
 </p>
 
 <p align="center">
-  <img width="980" height="500" src="User Log in Page.png">
+  <img width="980" height="500" src="User's Eucharist Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="User's Confirmation Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="User's Reconciliation Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="User's Mass Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="User's Thanksgiving Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="User's Petition Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="User's Funeral Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="User's About Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="User's Developers Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="Admin Log in Page.png">
 </p>
 
 ## Team Members
