@@ -55,7 +55,7 @@
   <img width="950" height="400" src="USE CASE DIAGRAM.jpg">
 </p>
 
-## GitHub Repository
+## Application Screenshot
 
 <p align="center">
   <img width="980" height="500" src="User Sign up Page.png">
