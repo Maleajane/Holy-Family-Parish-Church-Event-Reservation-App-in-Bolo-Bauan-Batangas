@@ -66,7 +66,7 @@
 </p>
 
 <p align="center">
-  <img width="980" height="500" src="User Log in Page.png">
+  <img width="980" height="500" src="User's Baptism Page.png">
 </p>
 
 <p align="center">
