@@ -46,6 +46,21 @@
 
 ## System Architecture
 
+**SEQUENCE DIAGRAM**
+<p align="center">
+  <img width="460" height="400" src="SEQUENCE DIAGRAM.jpg">
+</p>
+
+**USE CASE DIAGRAM**
+<p align="center">
+  <img width="950" height="400" src="USE CASE DIAGRAM.jpg">
+</p>
+
 ## GitHub Repository
 
 ## Team Members
+
+### • Makalintal, Larah Dienice D.
+### • Medrano, Ma. Lea Jane D.
+### • Panganiban, Glenn P.
+### IT-BA-3304
