@@ -57,6 +57,10 @@
 
 ## GitHub Repository
 
+<p align="center">
+  <img width="980" height="500" src="User Sign up Page.png">
+</p>
+
 ## Team Members
 
 ### • Makalintal, Larah Dienice D.
