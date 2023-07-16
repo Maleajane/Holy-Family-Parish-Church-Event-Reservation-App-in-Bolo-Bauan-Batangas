@@ -1,8 +1,7 @@
-<h1 align="center"> Holy Family Parish Church Event Reservation App in Bolo, Bauan, Batangas </h1>
-
 <p align="center">
-  <img width="350" height="350" src="LOGO.png">
+  <img width="950" height="500" src="LOGO.png">
 </p>
+<h1 align="center"> Holy Family Parish Church Event Reservation App in Bolo, Bauan, Batangas </h1>
 
 ## Brief Description of the Project
 
