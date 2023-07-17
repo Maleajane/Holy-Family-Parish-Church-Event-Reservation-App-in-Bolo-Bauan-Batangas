@@ -1,0 +1,140 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu">
+
+      </ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>About</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    
+  <div class="background-image" style="background-image: url('../assets/images/bg.jpg');"></div>
+  <style>
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.705);
+      z-index: -1; 
+    }
+  </style>
+  <div class="overlay"></div>
+    <div class="container bootstrap snippets bootdey mt-3">
+
+        <ion-toolbar>
+            <ion-buttons slot="end">
+                <ion-button item-end color="warning" size="small" fill="outline" expand="undefined" (click)="scrollToBottom()"><ion-icon name="chevron-down-outline"></ion-icon></ion-button>
+            </ion-buttons>
+        </ion-toolbar>
+
+        
+        <div class="text-center">
+            <img src="../assets/images/logo.png" alt="" style="height: 150px;" class="mb-0 mt-3">
+            <h1 style="font-family: 'Papyrus'; color: #fcd705; font-weight: bolder;">Happy Family Parish</h1>
+            <small style="color: #fff;">Holy Family Parish mobile application is an event reservation platform that allows the user to reserve for an event at the church. Also, to organize and manage scheduled events while providing security and accuracy of information. The ultimate goal is to bridge the gap through a mobile application by enhancing their current church operations to accommodate the needs of the congregation including numerous event reservations and other services.</small>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <ion-card routerLink="/baptism">
+                    <img alt="ib" src="../assets/images/ib.jpg" />
+                    <ion-card-header>
+                        <ion-card-title>Baptism</ion-card-title>
+                        <ion-card-subtitle>Holy Family Parish</ion-card-subtitle>
+                    </ion-card-header>
+                    
+                    <ion-card-content>
+                       <small>Infant Baptism - is the practice of baptising infants or young children. Infant baptism is also called christening by some faith traditions. Most Christians belong to denominations that practice infant baptism. <br><br>Adult Baptism - Believer's baptism or adult baptism is the practice of baptizing those who are able to make a conscious profession of faith, as contrasted to the practice of baptizing infants. Credobaptists believe that infants incapable of consciously believing should not be baptized.</small>
+                    </ion-card-content>
+                </ion-card>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <ion-card routerLink="/eucharist">
+                    <img alt="ib" src="../assets/images/eucharist.jpg" />
+                    <ion-card-header>
+                        <ion-card-title>Eucharist</ion-card-title>
+                        <ion-card-subtitle>Holy Family Parish</ion-card-subtitle>
+                    </ion-card-header>
+                    
+                    <ion-card-content>
+                        <small>The Eucharist, also known as Holy Communion and the Lord's Supper, is a Christian rite that is considered a sacrament in most churches, and as an ordinance in others. Christians believe that the rite was instituted by Jesus at the Last Supper, the night before his crucifixion, giving his disciples bread and wine.</small>
+                    </ion-card-content>
+                </ion-card>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <ion-card routerLink="/confirmation">
+                    <img alt="ib" src="../assets/images/confirmation.jpg" />
+                    <ion-card-header>
+                        <ion-card-title>Confirmation</ion-card-title>
+                        <ion-card-subtitle>Holy Family Parish</ion-card-subtitle>
+                    </ion-card-header>
+                    
+                    <ion-card-content>
+                        <small>In the Sacrament of Confirmation, the baptized person is"sealed with the gift of the Holy Spirit" and is strengthened for service to the Body of Christ. The prophets of the Old Testament foretold that God's Spirit would rest upon the Messiah to sustain his mission.</small>
+                    </ion-card-content>
+                </ion-card>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <ion-card routerLink="/reconciliation">
+                    <img alt="ib" src="../assets/images/reconciliation.jpg" />
+                    <ion-card-header>
+                        <ion-card-title>Reconciliation</ion-card-title>
+                        <ion-card-subtitle>Holy Family Parish</ion-card-subtitle>
+                    </ion-card-header>
+                    
+                    <ion-card-content>
+                        <small>Reconciliation (also known as Confession or Penance) is a sacrament instituted by Jesus Christ in His love and mercy to offer sinners forgiveness for offenses committed against God</small>
+                    </ion-card-content>
+                </ion-card>
+            </div>  
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <ion-card routerLink="/marriage">
+                    <img alt="ib" src="../assets/images/marriage.jpg" />
+                    <ion-card-header>
+                        <ion-card-title>Marriage</ion-card-title>
+                        <ion-card-subtitle>Holy Family Parish</ion-card-subtitle>
+                    </ion-card-header>
+                    
+                    <ion-card-content>
+                        <small>As first described in Genesis and later affirmed by Jesus, marriage is a God-ordained, covenant relationship between a man and a woman. This lifelong, sexually exclusive relationship brings children into the world and thus sustains the stewardship of the earth.</small>
+                    </ion-card-content>
+                </ion-card>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <ion-card routerLink="/mass">
+                    <img alt="ib" src="../assets/images/mass.jpg" />
+                    <ion-card-header>
+                        <ion-card-title>Mass</ion-card-title>
+                        <ion-card-subtitle>Holy Family Parish</ion-card-subtitle>
+                    </ion-card-header>
+                    
+                    <ion-card-content>
+                        <small>Thanksgiving Day - is typically thought of as a national holiday, however, the idea of giving thanks also is an essential part of daily Catholic life. As a Church family, we celebrate a thanksgiving meal every Sunday within the context of the Mass which is first and foremost a prayer of thanksgiving. <br><br>Petition - Intercessions are prayers of petition in which Christians intercede for the needs of others (e.g. the community, the church, the world, leaders) as well as for themselves. <br><br>Mass for the soul - Mass intentions are requests by relatives and/or friends for particular weekday or Sunday Mass to be offered for the repose of the soul of a deceased person. Mass intentions may also be requested for the living. <br><br>Funeral - Funeral Mass has the body of the deceased or the cremated remains of the deceased present and has all the special prayers attributed to that Mass. When the body or the cremated remains are not present it is called a Memorial Mass.</small>
+                    </ion-card-content>
+                </ion-card>
+            </div>     
+        </div>
+
+        <ion-toolbar>
+            <ion-buttons slot="end">
+                <ion-button color="warning" size="small" fill="outline" expand="undefined" (click)="scrollToTop()"><ion-icon name="chevron-up-outline"></ion-icon></ion-button>
+            </ion-buttons>
+        </ion-toolbar>
+        
+    </div>
+
+    <div class="mb-3">
+
+    </div>
+</ion-content>

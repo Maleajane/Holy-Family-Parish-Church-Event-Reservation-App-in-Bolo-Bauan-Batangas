@@ -1,0 +1,77 @@
+<ion-app>
+  <ion-menu menuId="main-menu" contentId="main">
+
+    <ion-content>
+      <div class="menu-header-bg"></div>
+      <div class="header-content">
+        <img src="../assets/images/logo.png" alt="">
+        <ion-label>
+          <h2>Holy Family Parish</h2>
+          <p>Bolo, Bauan, Batangas</p>
+        </ion-label>
+      </div>
+
+      <ion-list class="menu-items" lines="none">
+        
+        <ion-menu-toggle>
+          <ion-item [routerLink]="['/home']" [class.active]="isActive('/home')">
+            <ion-icon name="home-sharp"></ion-icon>Home
+          </ion-item>
+        </ion-menu-toggle>
+      
+        <ion-menu-toggle>
+          <ion-item [routerLink]="['/baptism']" [class.active]="isActive('/baptism')">
+            <ion-icon name="accessibility-sharp"></ion-icon>Baptism
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle>
+          <ion-item [routerLink]="['/marriage']" [class.active]="isActive('/marriage')">
+            <ion-icon name="infinite-sharp"></ion-icon>Marriage
+          </ion-item>
+        </ion-menu-toggle>
+      
+        <ion-menu-toggle>
+          <ion-item [routerLink]="['/eucharist']" [class.active]="isActive('/eucharist')">
+            <ion-icon name="pie-chart-sharp"></ion-icon>Eucharist
+          </ion-item>
+        </ion-menu-toggle>
+      
+        <ion-menu-toggle>
+          <ion-item [routerLink]="['/confirmation']" [class.active]="isActive('/confirmation')">
+            <ion-icon name="checkmark-done-sharp"></ion-icon>Confirmation
+          </ion-item>
+        </ion-menu-toggle>
+      
+        <ion-menu-toggle>
+          <ion-item [routerLink]="['/reconciliation']" [class.active]="isActive('/reconciliation')">
+            <ion-icon name="color-filter-sharp"></ion-icon>Reconciliation
+          </ion-item>
+        </ion-menu-toggle>
+      
+        <ion-menu-toggle>
+          <ion-item [routerLink]="['/mass']" [class.active]="isActive('/mass')">
+            <ion-icon name="notifications-sharp"></ion-icon>Mass
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle>
+          <ion-item [routerLink]="['/aboutus']" [class.active]="isActive('/aboutus')">
+            <ion-icon name="information-sharp"></ion-icon>About
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle>
+          <ion-item [routerLink]="['/developers']" [class.active]="isActive('/developers')">
+            <ion-icon name="code-sharp"></ion-icon>Developers
+          </ion-item>
+        </ion-menu-toggle>
+        
+      </ion-list>
+    </ion-content>
+
+  </ion-menu>
+
+
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

@@ -1,0 +1,63 @@
+<ion-content [fullscreen]="true">
+  <body class="img js-fullheight" style="background-image: url(../assets/images/bg.jpg);">
+    <style>
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.705);
+        z-index: -1; 
+      }
+    </style>
+    <div class="overlay"></div>
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-left mb-5">
+            <h1 style="font-family: Gilroy; color: #fcd705; font-weight: bold;">Welcome,</h1>
+            <h4 style="font-family: Gilroy; color: #fff;">Sign in to continue!</h4>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4">
+            <div class="login-wrap p-0">
+              <div class="text-center">
+                <img src="../assets/images/logo.png" alt="" style="height: 130px; margin-bottom: 15px;">
+              </div>
+              <form class="signin-form" [formGroup]="loginForm" (ngSubmit)="login()">
+                <div class="form-group">
+                  <input formControlName="email" type="text" class="form-control" placeholder="Email" required>
+                  <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="loginForm.controls['email'].dirty && loginForm.hasError('required', 'email')">*Email is required.</span>
+                </div>
+                <div class="form-group">
+                  <input formControlName="password" id="password-field" type="password" class="form-control" placeholder="Password" required>
+                  <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                  <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="loginForm.controls['password'].dirty && loginForm.hasError('required', 'password')">*Password is required.</span>
+                </div>
+                <div class="form-group d-md-flex">
+                  <div class="text-right">
+                    <a href="#" style="color: #fff">Forgot Password</a>
+                  </div>
+                </div>
+                <div class="form-group mb-5">
+                  <button [disabled]="!loginForm.valid" type="submit" class="form-control btn btn-primary submit px-3">Sign In</button>
+                </div>
+              </form>
+              <p class="w-100 text-center">&mdash; Don' have an account? &mdash;</p>
+              <div class="social d-flex text-center">
+                <a routerLink="/signup" class="px-2 py-2 mr-md-1 rounded bg-light"><span></span> Sign Up</a>
+              </div>
+              <p class="w-100 text-center" style="margin-top: 15px;">&mdash; Log In as Administrator &mdash;</p>
+              <div class="social d-flex text-center">
+                <a routerLink="/admin-login" class="px-2 py-2 rounded bg-warning"><span></span> Admin Log In</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    </body>
+</ion-content>

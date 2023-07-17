@@ -1,0 +1,129 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    
+    <div style="margin-bottom: -8px;">
+      <ion-icon size="large" style="color: #ff6c02;" name="chevron-back-outline" routerLink="/reconciliation"></ion-icon>
+    </div>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="background-image" style="background-image: url('../assets/images/bg.jpg');"></div>
+  <style>
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.705);
+      z-index: -1; 
+    }
+  </style>
+  <div class="overlay"></div>
+
+  <div class="container mt-4">
+    <div class="row">
+        <div class="col-12">
+          <div class="text-center mb-4">
+            <ion-card>
+              <img alt="ib" src="../assets/images/reconciliation.jpg" />
+              <ion-card-header>
+                <ion-card-title>Confession Form</ion-card-title>
+                <ion-card-subtitle>Holy Family Parish</ion-card-subtitle>
+              </ion-card-header>
+            </ion-card>
+          </div>
+          <form class="file-upload" [formGroup]="reconciliationForm" (ngSubmit)="reconciliation()">
+            <div class="row mb-5 gx-5">
+              <div class="col-xxl-8 mb-3 mb-xxl-0">
+                <div class="bg-secondary-soft px-4 py-3 rounded">
+                  <div class="row g-3">
+                    <div class="col-md-12">
+                      <label class="form-label">Full Name</label>
+                    </div>
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="firstname" type="text" class="form-control" placeholder="First Name" aria-label="First Name">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="reconciliationForm.controls['firstname'].dirty && reconciliationForm.hasError('required', 'firstname')">*Required.</span>
+                          </div>
+                        </ion-col>
+                        
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="lastname" type="text" class="form-control" placeholder="Last Name" aria-label="Last Name">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="reconciliationForm.controls['lastname'].dirty && reconciliationForm.hasError('required', 'lastname')">*Required.</span>
+                          </div>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+
+                    <div class="col-md-12 mt-4">
+                      <label class="form-label">Preferred Date of Confession</label>
+                      <input formControlName="date" type="date" class="form-control" placeholder="Date">
+                      <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="reconciliationForm.controls['date'].dirty && reconciliationForm.hasError('required', 'date')">*Required.</span>
+                    </div>
+
+                    <div class="col-md-12 mt-4">
+                      <label class="form-label">Contact Information</label>
+                    </div>
+
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="email" type="email" class="form-control" placeholder="Email" aria-label="Email">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="reconciliationForm.controls['email'].dirty && reconciliationForm.hasError('required', 'email')">*Required.</span>
+                          </div>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+                    
+                    <div class="col-md-12">
+                    </div>
+
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="phone" type="text" class="form-control" placeholder="Mobile Phone" aria-label="Mobile Phone">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="reconciliationForm.controls['phone'].dirty && reconciliationForm.hasError('required', 'phone')">*Required.</span>
+                          </div>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+
+                    <div class="col-md-12">
+                    </div>
+
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="address" type="text" class="form-control" placeholder="Residence Address" aria-label="Residence Address">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="reconciliationForm.controls['address'].dirty && reconciliationForm.hasError('required', 'address')">*Required.</span>
+                          </div>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <input [disabled]="!reconciliationForm.valid" type="submit" class="btn btn-light">
+              </div>
+
+            </div>
+          </form> 
+        </div>
+      </div>
+    </div>
+
+        
+
+</ion-content>

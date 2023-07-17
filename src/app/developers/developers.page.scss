@@ -1,0 +1,40 @@
+ion-menu-button {
+    color: #ff6c02;
+}
+
+ion-header {
+    background-color: #fff;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    position: fixed;  
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.rounded-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50% !important;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.sub-info{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #ff6c02;
+}
+
+.display-30 {
+    color: #fff;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,59 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    
+    <div style="margin-bottom: -8px;">
+      <ion-icon size="large" style="color: #ff6c02;" name="chevron-back-outline" routerLink="/admin-home"></ion-icon>
+    </div>
+
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <div class="background-image" style="background-image: url('../assets/images/bg.jpg');"></div>
+  <style>
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.705);
+      z-index: -1; 
+    }
+  </style>
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+        <div class="col-12">
+          <ion-card routerLink="/infant">
+            <img alt="ib" src="../assets/images/ib.jpg" />
+            <ion-card-header>
+              <ion-card-title>Infant Baptism</ion-card-title>
+              <ion-card-subtitle>Baptism</ion-card-subtitle>
+            </ion-card-header>
+          
+            <ion-card-content>
+              Infant Baptism is - the practice of baptising infants or young children. Infant baptism is also called christening by some faith traditions. Most Christians belong to denominations that practice infant baptism.
+            </ion-card-content>
+          </ion-card>
+          
+
+          <ion-card routerLink="/adult">
+            <img alt="ab" src="../assets/images/ab.jpg" />
+            <ion-card-header>
+              <ion-card-title>Adult Baptism</ion-card-title>
+              <ion-card-subtitle>Baptism</ion-card-subtitle>
+            </ion-card-header>
+          
+            <ion-card-content>
+              Adult Baptism - Believer's baptism or adult baptism is the practice of baptizing those who are able to make a conscious profession of faith, as contrasted to the practice of baptizing infants. Credobaptists believe that infants incapable of consciously believing should not be baptized.
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </div>
+    </div>
+
+        
+
+</ion-content>

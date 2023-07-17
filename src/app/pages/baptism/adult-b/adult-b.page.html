@@ -1,0 +1,172 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    
+    <div style="margin-bottom: -8px;">
+      <ion-icon size="large" style="color: #ff6c02;" name="chevron-back-outline" routerLink="/baptism"></ion-icon>
+    </div>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="background-image" style="background-image: url('../assets/images/bg.jpg');"></div>
+  <style>
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.705);
+      z-index: -1; 
+    }
+  </style>
+  <div class="overlay"></div>
+
+  <div class="container mt-4">
+    <div class="row">
+        <div class="col-12">
+          <div class="text-center mb-4">
+            <ion-card>
+              <img alt="ab" src="../assets/images/ab.jpg" />
+              <ion-card-header>
+                <ion-card-title>Adult Baptism Form</ion-card-title>
+                <ion-card-subtitle>Holy Family Parish</ion-card-subtitle>
+              </ion-card-header>
+            </ion-card>
+          </div>
+          <form class="file-upload" [formGroup]="adultBaptismForm" (ngSubmit)="adultBaptism()">
+            <div class="row mb-5 gx-5">
+              <div class="col-xxl-8 mb-3 mb-xxl-0">
+                <div class="bg-secondary-soft px-4 py-3 rounded">
+                  <div class="row g-3">
+                    <div class="col-md-12">
+                      <label class="form-label">Name of the Baptized</label>
+                    </div>
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="firstname" type="text" class="form-control" placeholder="First Name" aria-label="First Name">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="adultBaptismForm.controls['firstname'].dirty && adultBaptismForm.hasError('required', 'firstname')">*Required.</span>
+                          </div>
+                        </ion-col>
+                        
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="lastname" type="text" class="form-control" placeholder="Last Name" aria-label="Last Name">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="adultBaptismForm.controls['lastname'].dirty && adultBaptismForm.hasError('required', 'lastname')">*Required.</span>
+                          </div>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+                    
+                    <div class="col-md-12">
+                      <label class="form-label">Parents of the Baptized</label>
+                    </div>
+
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="fathersFirstname" type="text" class="form-control" placeholder="Father's First Name" aria-label="Father's First Name">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="adultBaptismForm.controls['fathersFirstname'].dirty && adultBaptismForm.hasError('required', 'fathersFirstname')">*Required.</span>
+                          </div>
+                        </ion-col>
+
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="fathersLastname" type="text" class="form-control" placeholder="Father's Last Name" aria-label="Father's Last Name">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="adultBaptismForm.controls['fathersLastname'].dirty && adultBaptismForm.hasError('required', 'fathersLastname')">*Required.</span>
+                          </div>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+
+                    <div class="col-md-12">
+                    </div>
+
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="mothersFirstname" type="text" class="form-control" placeholder="Mother's First Name" aria-label="Mother's First Name">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="adultBaptismForm.controls['mothersFirstname'].dirty && adultBaptismForm.hasError('required', 'mothersFirstname')">*Required.</span>
+                          </div>
+                        </ion-col>
+                        
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="mothersLastname" type="text" class="form-control" placeholder="Mother's Last Name" aria-label="Mother's Last Name">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="adultBaptismForm.controls['mothersLastname'].dirty && adultBaptismForm.hasError('required', 'mothersLastname')">*Required.</span>
+                          </div>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+
+                    <div class="col-md-12 mt-4">
+                      <label class="form-label">Preferred Date of Baptism</label>
+                      <input formControlName="date" type="date" class="form-control" placeholder="Date">
+                      <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="adultBaptismForm.controls['date'].dirty && adultBaptismForm.hasError('required', 'date')">*Required.</span>
+                    </div>
+
+                    <div class="col-md-12 mt-4">
+                      <label class="form-label">Sponsors</label>
+                    </div>
+
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="godFathersFirstname" type="text" class="form-control" placeholder="GodFather's First Name" aria-label="Father's First Name">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="adultBaptismForm.controls['godFathersFirstname'].dirty && adultBaptismForm.hasError('required', 'godFathersFirstname')">*Required.</span>
+                          </div>
+                        </ion-col>
+
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="godFathersLastname" type="text" class="form-control" placeholder="GodFather's Last Name" aria-label="Father's Last Name">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="adultBaptismForm.controls['godFathersLastname'].dirty && adultBaptismForm.hasError('required', 'godFathersLastname')">*Required.</span>
+                          </div>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+                    
+                    <div class="col-md-12">
+                    </div>
+
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="godMothersFirstname" type="text" class="form-control" placeholder="GodMother's First Name" aria-label="Mother's First Name">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="adultBaptismForm.controls['godMothersFirstname'].dirty && adultBaptismForm.hasError('required', 'godMothersFirstname')">*Required.</span>
+                          </div>
+                        </ion-col>
+
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="godMothersLastname" type="text" class="form-control" placeholder="GodMother's Last Name" aria-label="Mother's Last Name">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="adultBaptismForm.controls['godMothersLastname'].dirty && adultBaptismForm.hasError('required', 'godMothersLastname')">*Required.</span>
+                          </div>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <input [disabled]="!adultBaptismForm.valid" type="submit" class="btn btn-light">
+              </div>
+
+            </div>
+          </form> 
+        </div>
+      </div>
+    </div>
+
+        
+
+</ion-content>

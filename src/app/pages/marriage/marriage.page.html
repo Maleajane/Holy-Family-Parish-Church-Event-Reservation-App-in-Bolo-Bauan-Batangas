@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu">
+
+      </ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>Marriage</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="background-image" style="background-image: url('../assets/images/bg.jpg');"></div>
+  <style>
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.705);
+      z-index: -1; 
+    }
+  </style>
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+        <div class="col-12">
+          <ion-card routerLink="./marriage">
+            <img alt="ib" src="../assets/images/marriage.jpg" />
+            <ion-card-header>
+                <ion-card-title>Marriage</ion-card-title>
+                <ion-card-subtitle>Holy Family Parish</ion-card-subtitle>
+            </ion-card-header>
+            
+            <ion-card-content>
+                <small>As first described in Genesis and later affirmed by Jesus, marriage is a God-ordained, covenant relationship between a man and a woman. This lifelong, sexually exclusive relationship brings children into the world and thus sustains the stewardship of the earth.</small>
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </div>
+    </div>
+</ion-content>

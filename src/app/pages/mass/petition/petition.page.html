@@ -1,0 +1,96 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    
+    <div style="margin-bottom: -8px;">
+      <ion-icon size="large" style="color: #ff6c02;" name="chevron-back-outline" routerLink="/mass"></ion-icon>
+    </div>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="background-image" style="background-image: url('../assets/images/bg.jpg');"></div>
+  <style>
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.705);
+      z-index: -1; 
+    }
+  </style>
+  <div class="overlay"></div>
+
+  <div class="container mt-4">
+    <div class="row">
+        <div class="col-12">
+          <div class="text-center mb-4">
+            <ion-card>
+              <img alt="ib" src="../assets/images/petition.jpg" />
+              <ion-card-header>
+                <ion-card-title>Petition Form</ion-card-title>
+                <ion-card-subtitle>Holy Family Parish</ion-card-subtitle>
+              </ion-card-header>
+            </ion-card>
+          </div>
+          <form class="file-upload" [formGroup]="petitionForm" (ngSubmit)="petition()">
+            <div class="row mb-5 gx-5">
+              <div class="col-xxl-8 mb-3 mb-xxl-0">
+                <div class="bg-secondary-soft px-4 py-3 rounded">
+                  <div class="row g-3">
+                    <div class="col-md-12">
+                      <label class="form-label">Full Name</label>
+                    </div>
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col>
+                          <div class="col-md-12">
+                            <input formControlName="fullname" type="text" class="form-control" placeholder="Fullname" aria-label="Fullname">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="petitionForm.controls['fullname'].dirty && petitionForm.hasError('required', 'fullname')">*Required.</span>
+                          </div>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+
+                    <div class="col-md-12">
+                    </div>
+
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col>
+                          <div class="col-md-12">
+                            <label class="form-label">Preferred Date</label>
+                            <input formControlName="date" type="date" class="form-control" placeholder="Date">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="petitionForm.controls['date'].dirty && petitionForm.hasError('required', 'date')">*Required.</span>
+                          </div>
+                        </ion-col>
+                        
+                        <ion-col>
+                          <div class="col-md-12">
+                            <label class="form-label">Preferred Time</label>
+                            <input formControlName="time" type="time" class="form-control" placeholder="time">
+                            <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="petitionForm.controls['time'].dirty && petitionForm.hasError('required', 'time')">*Required.</span>
+                          </div>
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <input [disabled]="!petitionForm.valid" type="submit" class="btn btn-light">
+              </div>
+
+            </div>
+          </form> 
+        </div>
+      </div>
+    </div>
+
+        
+
+</ion-content>

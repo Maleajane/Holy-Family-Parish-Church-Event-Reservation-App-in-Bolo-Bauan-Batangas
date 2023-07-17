@@ -1,0 +1,6 @@
+Church App Color Theme
+
+#28aed4 - sky blue
+#fcd705 - yellow
+#f8d616 - dark yellow
+#203e6a - dark blue

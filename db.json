@@ -1,0 +1,137 @@
+{
+  "signupUsers": [
+    {
+      "fullname": "Juan Dela Cruz",
+      "email": "juandelacruz@gmail.com",
+      "password": "123123",
+      "id": 1
+    }
+  ],
+  "infantBaptismRecord": [
+    {
+      "firstname": "qwe",
+      "lastname": "qwe",
+      "fathersFirstname": "qweq",
+      "fathersLastname": "weqw",
+      "mothersFirstname": "eqwe",
+      "mothersLastname": "qweqw",
+      "date": "2023-07-15",
+      "godFathersFirstname": "qweqwe",
+      "godFathersLastname": "qweqw",
+      "godMothersFirstname": "eqweqwe",
+      "godMothersLastname": "qeqwe",
+      "id": 1
+    }
+  ],
+  "adultBaptismRecord": [
+    {
+      "firstname": "Sample",
+      "lastname": "Sample",
+      "fathersFirstname": "Sample",
+      "fathersLastname": "Sample",
+      "mothersFirstname": "Sample",
+      "mothersLastname": "Sample",
+      "date": "Sample",
+      "godFathersFirstname": "Sample",
+      "godFathersLastname": "Sample",
+      "godMothersFirstname": "Sample",
+      "godMothersLastname": "Sample",
+      "id": 1
+    }
+  ],
+  "marriageRecord": [
+    {
+      "gfirstname": "Sample",
+      "glastname": "Sample",
+      "bfirstname": "Sample",
+      "maidenName": "Sample",
+      "date": "Sample",
+      "email": "Sample",
+      "phone": "Sample",
+      "address": "Sample",
+      "id": 1
+    }
+  ],
+  "confirmationRecord": [
+    {
+      "firstname": "Sample",
+      "lastname": "Sample",
+      "email": "Sample",
+      "phone": "Sample",
+      "address": "Sample",
+      "date": "Sample",
+      "godFathersFirstname": "Sample",
+      "godFathersLastname": "Sample",
+      "godMothersFirstname": "Sample",
+      "godMothersLastname": "Sample",
+      "id": 1
+    }
+  ],
+  "eucharistRecord": [
+    {
+      "organization": "Sample",
+      "email": "Sample",
+      "phone": "Sample",
+      "address": "Sample",
+      "date": "Sample",
+      "id": 1
+    }
+  ],
+  "reconciliationRecord": [
+    {
+      "firstname": "Sample",
+      "lastname": "Sample",
+      "email": "Sample",
+      "phone": "Sample",
+      "address": "Sample",
+      "date": "Sample",
+      "id": 1
+    }
+  ],
+  "funeralRecord": [
+    {
+      "firstname": "Sample",
+      "lastname": "Sample",
+      "death": "Sample",
+      "date": "Sample",
+      "time": "Sample",
+      "fullname": "Sample",
+      "relationship": "Sample",
+      "serviceAddress": "Sample",
+      "email": "Sample",
+      "phone": "Sample",
+      "id": 1
+    }
+  ],
+  "thanksgivingRecord": [
+    {
+      "fullname": "Sample",
+      "date": "Sample",
+      "time": "Sample",
+      "id": 1
+    }
+  ],
+  "mftsRecord": [
+    {
+      "fullname": "Sample",
+      "date": "Sample",
+      "time": "Sample",
+      "id": 1
+    }
+  ],
+  "petitionRecord": [
+    {
+      "fullname": "Sample",
+      "date": "Sample",
+      "time": "Sample",
+      "id": 1
+    }
+  ],
+  "adminAccount": [
+    {
+      "uniqueId": "bsit3304",
+      "password": "admin3304",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<ion-content [fullscreen]="true">
+  <body class="img js-fullheight" style="background-image: url(../assets/images/bg.jpg);">
+    <style>
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.705);
+        z-index: -1; 
+      }
+    </style>
+    <div class="overlay"></div>
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-left mb-5">
+            <h1 style="font-family: Gilroy; color: #fcd705; font-weight: bold;">Create account,</h1>
+            <h4 style="font-family: Gilroy; color: #fff;">Sign up to get started!</h4>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4">
+            <div class="login-wrap p-0">
+              <div class="text-center">
+                <img src="../assets/images/logo.png" alt="" style="height: 130px; margin-bottom: 15px;">
+              </div>
+              <form class="signin-form" [formGroup]="signupForm" (ngSubmit)="signup()">
+                <div class="form-group">
+                  <input formControlName="fullname" type="text" id="fullname" name="fullname" class="form-control" placeholder="Fullname" required>
+                  <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="signupForm.controls['fullname'].dirty && signupForm.hasError('required', 'fullname')">*Fullname is required.</span>
+                </div>
+                <div class="form-group">
+                  <input formControlName="email" type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                  <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="signupForm.controls['email'].dirty && signupForm.hasError('required', 'email')">*Email is required.</span>
+                </div>
+                <div class="form-group">
+                  <input formControlName="password" id="password-field password" type="password" name="password" class="form-control" placeholder="Password" required>
+                  <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                  <span class="text-danger" style="font-size: 12px; margin-left: 10px;" *ngIf="signupForm.controls['password'].dirty && signupForm.hasError('required', 'password')">*Password is required.</span>
+                </div>
+                <div class="form-group mb-5">
+                  <input [disabled]="!signupForm.valid" type="submit" value="Sign Up" class="form-control btn btn-primary submit px-3">
+                </div>
+              </form>
+              <p class="w-100 text-center">&mdash; Already have an account? &mdash;</p>
+              <div class="social d-flex text-center">
+                <a routerLink="/login" class="px-2 py-2 mr-md-1 rounded bg-light"><span></span> Sign In</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    </body>
+      
+</ion-content>

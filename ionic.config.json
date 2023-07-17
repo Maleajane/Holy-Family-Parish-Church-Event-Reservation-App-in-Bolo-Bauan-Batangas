@@ -1,0 +1,7 @@
+{
+  "name": "CRS-App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
