@@ -122,7 +122,7 @@
 </p>
 
 ## Team Members
-  <img width="980" height="500" src="member.png">
+  <img width="500" height="500" src="member.png">
 
 ### • Makalintal, Larah Dienice D.
 ### • Medrano, Ma. Lea Jane D.
