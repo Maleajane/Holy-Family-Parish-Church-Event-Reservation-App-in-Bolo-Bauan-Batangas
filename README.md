@@ -121,6 +121,46 @@
   <img width="980" height="500" src="Admin Log in Page.png">
 </p>
 
+<p align="center">
+  <img width="980" height="500" src="Admin Home Page 1.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="Admin Home Page 2.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="Admin Infant Baptism Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="Admin Adult Baptism Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="Admin Eucharist Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="Admin Confirmation Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="Admin Reconciliation Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="Admin Marriage Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="Admin Thanksgiving Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="Admin Mass Page.png">
+</p>
+
 ## Team Members
 <p align="center">
   <img src="member.png" alt="Centered Image">
