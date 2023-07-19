@@ -165,6 +165,14 @@
   <img width="980" height="500" src="Admin Mass Page.png">
 </p>
 
+<p align="center">
+  <img width="980" height="500" src="Admin Petition Page.png">
+</p>
+
+<p align="center">
+  <img width="980" height="500" src="Admin Funeral Page.png">
+</p>
+
 ## Team Members
 <p align="center">
   <img src="member.png" alt="Centered Image">
