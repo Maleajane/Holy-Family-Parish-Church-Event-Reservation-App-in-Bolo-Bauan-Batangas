@@ -125,7 +125,7 @@
 <p align="center">
   <img src="member.png" alt="Centered Image">
   </p>
-* **Makalintal, Larah Dienice D.**
-* **Medrano, Ma. Lea Jane D.**
-* **Panganiban, Glenn P.**
+<b>* Makalintal, Larah Dienice D.
+* Medrano, Ma. Lea Jane D.
+* Panganiban, Glenn P.</b>
  IT-BA-3304 
