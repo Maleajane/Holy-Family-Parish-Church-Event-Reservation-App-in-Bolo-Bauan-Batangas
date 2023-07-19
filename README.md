@@ -124,8 +124,8 @@
 ## Team Members
 <p align="center">
   <img src="member.png" alt="Centered Image">
-** Makalintal, Larah Dienice D. **
-** Medrano, Ma. Lea Jane D. **
-** Panganiban, Glenn P. **
-** IT-BA-3304 **
-</p>
+  </p>
+* **Makalintal, Larah Dienice D.**
+* **Medrano, Ma. Lea Jane D.**
+* **Panganiban, Glenn P.**
+ IT-BA-3304 
