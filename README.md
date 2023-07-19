@@ -125,6 +125,7 @@
 <p align="center">
   <img src="member.png" alt="Centered Image">
 </p>
+
 - *Makalintal, Larah Dienice D.*
 - *Medrano, Ma. Lea Jane D.*
 - *Panganiban, Glenn P.*
