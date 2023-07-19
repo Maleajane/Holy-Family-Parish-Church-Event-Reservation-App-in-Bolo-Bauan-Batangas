@@ -5,6 +5,12 @@
       "email": "juandelacruz@gmail.com",
       "password": "123123",
       "id": 1
+    },
+    {
+      "fullname": "leajane",
+      "email": "lea7@gmail.com",
+      "password": "12345",
+      "id": 2
     }
   ],
   "infantBaptismRecord": [
