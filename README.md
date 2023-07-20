@@ -3,6 +3,10 @@
 </p>
 <h1 align="center"> Holy Family Parish Church Event Reservation App in Bolo, Bauan, Batangas </h1>
 
+## Special Note
+
+The codes for the app is located on the master branch. Thank you!
+
 ## Brief Description of the Project
 
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; Holy Family Parish is a Roman Catholic Church located in Balintawak Street, Brgy. Bolo, Bauan, Batangas. It is composed of the faithful people of eighteen (18) barangays in Bauan, Batangas, under the pastoral care and guidance of Rev. Fr. Emmanuel M. Vergara. Currently, they are experiencing numerous in-person church event reservations which causes certain problem in which way they managed their reservation through paper-based manual process. With their traditional manual method, the process of reserving a church event is time-consuming, expensive, increases the possibility for human error and involves physical contact with others. These significant challenges can easily be solved by utilizing modern technology to increase the efficiency and decrease the time for process.
