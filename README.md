@@ -59,6 +59,8 @@
 
 ## Application Screenshot
 
+### USER
+
 <p align="center">
   <img width="980" height="500" src="User Sign up Page.png">
 </p>
@@ -122,6 +124,8 @@
 <p align="center">
   <img width="980" height="500" src="User's Developers Page.png">
 </p>
+
+### ADMIN
 
 <p align="center">
   <img width="980" height="500" src="Admin Log in Page.png">
