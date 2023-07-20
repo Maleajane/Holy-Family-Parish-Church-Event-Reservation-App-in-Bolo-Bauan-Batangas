@@ -55,6 +55,8 @@
   <img width="950" height="400" src="USE CASE DIAGRAM.jpg">
 </p>
 
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp; The diagrams above were created by the team to demonstrate how users and administrators interact with the program. It indicates that the user can reserve the church event and choose from the available dates. The admin can view the reservations of the users and delete or approve the reservations.
+
 ## Application Screenshot
 
 <p align="center">
@@ -142,6 +144,10 @@
 </p>
 
 <p align="center">
+  <img width="980" height="500" src="Admin Marriage Page.png">
+</p>
+
+<p align="center">
   <img width="980" height="500" src="Admin Eucharist Page.png">
 </p>
 
@@ -154,15 +160,11 @@
 </p>
 
 <p align="center">
-  <img width="980" height="500" src="Admin Marriage Page.png">
+  <img width="980" height="500" src="Admin Mass Page.png">
 </p>
 
 <p align="center">
   <img width="980" height="500" src="Admin Thanksgiving Page.png">
-</p>
-
-<p align="center">
-  <img width="980" height="500" src="Admin Mass Page.png">
 </p>
 
 <p align="center">
